@@ -1,3 +1,5 @@
 # Aplicación secundaria
 print('HOLA HOLA HOLA HOLA')
-print('chau maxi')
+if true:
+    print('chau maxi')
+    print('hola maxi')
