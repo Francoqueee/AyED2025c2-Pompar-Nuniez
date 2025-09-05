@@ -1,4 +1,3 @@
 # Aplicación secundaria
-print("Hola desde la aplicación secundaria")
-print ("hola mundo" \
-"")
+if True:
+    print('HOLA HOLA HOLA HOLA')
