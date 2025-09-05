@@ -1,3 +1,3 @@
 # Aplicación secundaria
-if True:
-    print('HOLA HOLA HOLA HOLA')
+print('HOLA HOLA HOLA HOLA')
+print('hola maxi')
