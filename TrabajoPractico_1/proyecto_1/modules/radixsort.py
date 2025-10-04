@@ -34,10 +34,10 @@ def counting_sort(array, exponential):
 def radix_sort(lista):
     max_num = max(lista)  # Obtener el número máximo en la lista
     exponential = 1
-    while max_num // exp > 0:
+    while max_num // exponential > 0:
 
         counting_sort(lista, exponential)  # Llamar al counting_sort para ordenar los elementos en base al dígito actual
-        exp *= 10  # Mover al siguiente dígito hacia la izquierda
+        exponential *= 10  # Mover al siguiente dígito hacia la izquierda
 
 
 if __name__ == '__main__':

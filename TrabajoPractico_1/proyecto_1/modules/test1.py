@@ -1,6 +1,6 @@
 import unittest
 import random
-from burbuja import burbuja
+from burbuja import Burbuji
 from quicksort import ordenamientoRapido
 from radixsort import radix_sort
 
@@ -13,7 +13,7 @@ class Test_Burbuja(unittest.TestCase):
                 lista = [random.randint(10000, 99999) for _ in range(500)]
                 lista_copia = lista.copy()
 
-                burbuja(lista)
+                Burbuji(lista)
                 resultado_burbuja = lista
                 resultado_correcto = sorted(lista_copia)
 
@@ -33,7 +33,7 @@ class Test_quicksort(unittest.TestCase):
 
                 self.assertEqual(resultado_quick, resultado_correcto)
 
-class Test_radixsor(unittest.TestCase):
+class Test_radixsort(unittest.TestCase):
     
     def test_radixsort(self):
         for n in range(500):
@@ -42,7 +42,7 @@ class Test_radixsor(unittest.TestCase):
                 lista_copia = lista.copy()
 
                 radix_sort(lista)
-                resultado_radix= lista
+                resultado_radix = lista
                 resultado_correcto = sorted(lista_copia)
 
                 self.assertEqual(resultado_radix, resultado_correcto)
