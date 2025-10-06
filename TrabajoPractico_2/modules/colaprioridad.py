@@ -8,12 +8,12 @@ class ColaPrioridad:
         """
         self.monticulo = Monticulo(param1, param2)
 
-    def insertar(self, elemento):
+    def insertar(self, dato, param1=None, param2=None):
         """
         Inserta un nuevo elemento en la cola de prioridad.
         Complejidad: O(log n)
         """
-        self.monticulo.insertar(elemento)
+        self.monticulo.insertar(dato, param1, param2)
 
     def eliminar_minimo(self):
         """
@@ -40,4 +40,6 @@ class ColaPrioridad:
         Muestra los elementos almacenados (solo para depuración).
         """
         return str(self.monticulo)
-
+    def __iter__(self): # Método para iterar sobre los elementos de la cola de prioridad
+        for i in range(1, self.monticulo.tamano() + 1):
+            yield self.monticulo.lista[i]

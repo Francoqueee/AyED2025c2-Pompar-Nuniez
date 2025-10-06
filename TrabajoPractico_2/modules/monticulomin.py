@@ -82,7 +82,7 @@ class Monticulo:
         else:
             return elemento_envuelto[3]
 
-    def insertar(self, elemento):
+    def insertar(self, elemento, param1=None, param2=None):
         """
         Inserta un nuevo elemento en el montículo.
         Complejidad: O(log n)
@@ -130,3 +130,9 @@ class Monticulo:
         """
         elementos = [self.desempaqueta(e) for e in self.heap]
         return f"Monticulo({elementos})"
+    def __iter__(self):
+        """
+        Iterador para recorrer los elementos del montículo.
+        """
+        for elemento in self.heap:
+            yield self.desempaqueta(elemento)
