@@ -184,7 +184,7 @@ if __name__ == '__main__':
     for i in range(lista2.tamanio):
         print(pivote)
         pivote = pivote.siguiente
-    print("Tamanio")
+        
     pivote = lista.cabeza
     for i in range(lista.tamanio):
         print(pivote)

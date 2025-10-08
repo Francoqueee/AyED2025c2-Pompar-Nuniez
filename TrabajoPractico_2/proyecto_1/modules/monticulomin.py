@@ -19,7 +19,7 @@ class Monticulo:
         """
         # Si no hay parámetro, devolvemos el elemento tal cual como clave primaria
         if param is None:
-            # Intentamos devolver un valor comparable; si no, envolvemos como fallback
+            # Intentamos devolver un valor comparable; si no, envolvemos como fallback (opcion de contingencia)
             try:
                 return (0, elem)
             except TypeError:
@@ -121,7 +121,7 @@ class Monticulo:
     def esta_vacio(self):
         return len(self.heap) == 0
 
-    def tamano(self):
+    def tamanio(self):
         return len(self.heap)
 
     def __str__(self):

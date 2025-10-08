@@ -3,8 +3,8 @@ class ColaPrioridad:
     def __init__(self, param1=None, param2=None):
         """
         Inicializa la cola de prioridad.
-        param1: función para obtener la prioridad del elemento (opcional).
-        param2: función para obtener una segunda prioridad en caso de empate (opcional).
+        param1: función para obtener la prioridad del elemento.
+        param2: función para obtener una segunda prioridad en caso de empate.
         """
         self.monticulo = Monticulo(param1, param2)
 
@@ -32,8 +32,8 @@ class ColaPrioridad:
     def esta_vacio(self):
         return self.monticulo.esta_vacio()
 
-    def tamano(self):
-        return self.monticulo.tamano()
+    def tamanio(self):
+        return self.monticulo.tamanio()
 
     def __str__(self):
         """
@@ -41,5 +41,6 @@ class ColaPrioridad:
         """
         return str(self.monticulo)
     def __iter__(self): # Método para iterar sobre los elementos de la cola de prioridad
-        for i in range(1, self.monticulo.tamano() + 1):
+        return iter(self.monticulo)
+        for i in range(self.monticulo.tamanio()):
             yield self.monticulo.lista[i]
