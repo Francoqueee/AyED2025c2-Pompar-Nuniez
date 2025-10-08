@@ -122,13 +122,10 @@ class ListaDobleEnlazada:
     def copiar(self):
         pivote = self.cabeza
         nueva_lista = ListaDobleEnlazada()
-        if self.tamanio == 0:
-            return nueva_lista
-        else:
-            for i in range (self.tamanio):
-                nueva_lista.agregar_al_final(pivote.dato)
-                pivote = pivote.siguiente
-            return nueva_lista
+        for i in range (self.tamanio):
+            nueva_lista.agregar_al_final(pivote.dato)
+            pivote = pivote.siguiente
+        return nueva_lista
         
     def invertir(self):
         pivote = self.cabeza

@@ -1,8 +1,8 @@
 import unittest
 import random
-from burbuja import Burbuji
-from quicksort import ordenamientoRapido
-from radixsort import radix_sort
+from modules.burbuja import Burbuji
+from modules.quicksort import ordenamientoRapido
+from modules.radixsort import radix_sort
 
 
 class Test_Burbuja(unittest.TestCase):

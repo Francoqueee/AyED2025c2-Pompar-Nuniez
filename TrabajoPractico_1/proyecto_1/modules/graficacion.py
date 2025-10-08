@@ -3,7 +3,6 @@ from tiempos import medir_tiempos_len
 from tiempos import medir_tiempos_copia
 from tiempos import medir_tiempos_invertir
 
-
 def graficar_tiempos_len():
     #tamanos = [1, 10, 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
     tamanos = [n for n in range(1, 1001, 20)]
@@ -28,7 +27,7 @@ def graficar_tiempos_len():
 
 def graficar_tiempos_copia():
     #tamanos = [1, 10, 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
-    tamanos = [n for n in range(1, 1001, 20)]
+    tamanos = [n for n in range(1, 1001, 10)]
     # figsize es el tamaño de la figura en pulgadas (width, height)
     plt.figure(figsize=(10, 6))
 

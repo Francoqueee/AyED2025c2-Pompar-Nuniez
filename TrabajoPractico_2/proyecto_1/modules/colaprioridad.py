@@ -40,7 +40,7 @@ class ColaPrioridad:
         Muestra los elementos almacenados (solo para depuración).
         """
         return str(self.monticulo)
+    
     def __iter__(self): # Método para iterar sobre los elementos de la cola de prioridad
         return iter(self.monticulo)
-        for i in range(self.monticulo.tamanio()):
-            yield self.monticulo.lista[i]
+    
