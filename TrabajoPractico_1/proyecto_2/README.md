@@ -1,8 +1,7 @@
-# 🐍Nombre del proyecto (darle un nombre significativo) 
+# 🐍Guerra (Juego de cartas)
 
-Breve descripción del proyecto:
+"Este script implementara la clase "Mazo", una lista doblemente enlazada, para almacenar objetos de tipo Carta y realizar diferentes operaciones. Luego se realizará sobre el algoritmo el test para la clase mazo y el test para el juego "Guerra" "
 
-Ejemplo: “Este es un script en el que se comparan algoritmos de ordenamiento. Permite [describir funcionalidades principales].
 
 ---
 ## 🏗Arquitectura General
@@ -36,8 +35,8 @@ El informe completo está disponible en la carpeta [docs](./docs) del proyecto.
 ---
 ## 🙎‍♀️🙎‍♂️Autores
 
-- Apellido y Nombre del primer integrante
-- Apellido y Nombre del primer integrante
+- Maximo Nuñez
+- Franco Romero Pompar
 
 ---
 

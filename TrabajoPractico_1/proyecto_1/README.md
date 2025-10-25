@@ -1,8 +1,6 @@
-# 🐍Nombre del proyecto (darle un nombre significativo) 
+# 🐍Implementacion de una lista doblemente enlazada
 
-Breve descripción del proyecto:
-
-Ejemplo: “Este es un script en el que se comparan algoritmos de ordenamiento. Permite [describir funcionalidades principales].
+"En el siguiente script se implementará el TAD Lista doblemente enlazada (ListaDobleEnlazada) que permita almacenar elementos de cualquier tipo que sean comparables. Se realizará una gráfica de N (cantidad de elementos) vs tiempo de ejecución para distintas funciones de la lista. Por ultimo, la lista será puesta a prueba por un test provisto por la catedra"
 
 ---
 ## 🏗Arquitectura General
@@ -36,8 +34,8 @@ El informe completo está disponible en la carpeta [docs](./docs) del proyecto.
 ---
 ## 🙎‍♀️🙎‍♂️Autores
 
-- Apellido y Nombre del primer integrante
-- Apellido y Nombre del primer integrante
+- Maximo Nuñez
+- Franco Romero Pompar
 
 ---
 

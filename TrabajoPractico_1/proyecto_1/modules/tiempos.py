@@ -33,7 +33,7 @@ def medir_tiempos_copia(tamanos):
         
         # Cronometrar el tiempo de lista.copiar()
         inicio = time.perf_counter()
-        lista.copiar()
+        aux_lista = lista.copiar()
         fin = time.perf_counter()
         tiempos_copia.append(fin - inicio)
   #      print(f"Tiempo de funcion copia para n={n}: {fin - inicio:.10f} segundos")

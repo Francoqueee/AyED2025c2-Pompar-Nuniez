@@ -1,8 +1,7 @@
-# 🐍Nombre del proyecto (darle un nombre significativo) 
+# 🐍Algoritmo de ordenamiento 
 
-Breve descripción del proyecto:
+"Este es un script en donde se trabajaran algoritmos de ordenamiento de datos; para ser más especificos, se trabajara con ordenamiento burbuja,ordenamiento quicksort y ordenamiento por residuos (radix sort). Luego se mediran los tiempos de ejecucion de estos mismos metodos"
 
-Ejemplo: “Este es un script en el que se comparan algoritmos de ordenamiento. Permite [describir funcionalidades principales].
 
 ---
 ## 🏗Arquitectura General
