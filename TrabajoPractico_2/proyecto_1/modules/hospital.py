@@ -34,7 +34,7 @@ for i in range(n):
     print()
 
     # Se muestran los pacientes restantes en la cola de espera
-    print(f'Faltan {cola_de_espera.tamanio()} pacientes por atenderse aún... Proximos en la cola: {cola_de_espera}')
+    print(f'Faltan {cola_de_espera.tamanio()} pacientes por atenderse aún...')
     for paciente in cola_de_espera:
         print('\t', paciente)
     

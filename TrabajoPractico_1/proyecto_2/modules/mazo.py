@@ -1,5 +1,5 @@
-from LDE import ListaDobleEnlazada  
-from carta import Carta  
+from modules.LDE import ListaDobleEnlazada  
+from modules.carta import Carta  
 
 class DequeEmptyError(Exception):
     # Excepcion personalizada para indicar que el mazo esta vacio.

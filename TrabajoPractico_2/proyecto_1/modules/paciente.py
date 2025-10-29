@@ -3,8 +3,8 @@
 from random import randint, choices
 from datetime import datetime
 
-nombres = ['Fran', 'Maxi', 'Colo', 'Tito', 'Santi', 'Juli', 'Mari', 'Luci', 'Nati']
-apellidos = ['Pompar', 'Nuñez', 'Colman', 'Brehm', 'Maidana', 'Saravia', 'Vela', 'Micheloud', 'Almiron']
+nombres = ['Mia', 'Fran', 'Maxi', 'Colo', 'Tito', 'Santi', 'Juli', 'Mari', 'Luci', 'Nati']
+apellidos = ['France', 'Pompar', 'Nuñez', 'Colman', 'Brehm', 'Maidana', 'Saravia', 'Vela', 'Micheloud', 'Almiron']
 
 niveles_de_riesgo = [1, 2, 3]
 descripciones_de_riesgo = ['crítico', 'moderado', 'bajo']
