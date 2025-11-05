@@ -351,3 +351,5 @@ if __name__ == "__main__":
     arbol = Arbol()
     for clave in [46,34.5,25,12.23,30, 20, 10, 3 ,2, 1]:
         arbol.agregar(clave, clave * 2)
+
+#prueba
