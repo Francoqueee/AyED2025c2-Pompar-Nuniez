@@ -125,9 +125,9 @@ def predecesores_sucesores_aldeas(G): # Imprime los predecesores y sucesores de 
         elif len(sucesores) == 0:
             print(f"La aldea {v.obtenerId()} recibe el mensaje desde {predecesor.obtenerId()} y no debe enviar réplicas.")
         elif len(sucesores) == 1:    
-            print(f"La aldea {v.obtenerId()} recibe el mensaje desde {predecesor.obtenerId()} y debe enviar réplicas a {sucesores[0]}.")
+            print(f"La aldea {v.obtenerId()} recibe el mensaje desde {predecesor.obtenerId()} y puede enviar réplicas a {sucesores[0]}.")
         else:
-            print(f"La aldea {v.obtenerId()} recibe el mensaje desde {predecesor.obtenerId()} y debe enviar réplicas a {', '.join(sucesores[:-1])} y {sucesores[-1]}.")
+            print(f"La aldea {v.obtenerId()} recibe el mensaje desde {predecesor.obtenerId()} y puede enviar réplicas a {', '.join(sucesores[:-1])} y {sucesores[-1]}.")
                
         
             
