@@ -5,7 +5,7 @@ class Vertice:
         self.id = clave
         self.conectadoA = {} # Diccionario de adyacencias
         # Atributos extra para la implementacion de prim
-        self.distancia = float('inf')  # Incicialmente infinita, distancia al predecesor
+        self.distancia = float('inf')  # Inicialmente infinita, distancia al predecesor
         self.predecesor = None  # Predecesor en el camino más corto
 
     def agregarVecino(self,vecino,ponderacion=0):
