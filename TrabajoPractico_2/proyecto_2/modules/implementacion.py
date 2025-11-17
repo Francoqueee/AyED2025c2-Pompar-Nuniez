@@ -106,6 +106,3 @@ db.devolver_todas_temperaturas()
 
 # Cantidad de muestras después de borrar
 print("Cantidad de muestras después de borrar:", db.cantidad_muestras())
-
-    
-    
