@@ -1,3 +1,10 @@
+
+'''Esta clase implementa un grafo dirigido y ponderado usando una lista de adyacencia.
+Nuestra idea fue incluirlo para visualizar el grafo y poder enterderlo mejor, pero no fue utilizado en el proyecto final.
+Además, surgió de nuestra curiosidad por la biblioteca networkx para visualización de grafos, aunque como se ve en el informe,
+no es tan representativa en la longitud de las aristas. De todas formas, dejamos el código aquí para futuras referencias'''
+
+
 import networkx as nx
 import matplotlib.pyplot as plt
 

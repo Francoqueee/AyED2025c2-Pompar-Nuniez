@@ -1,3 +1,4 @@
+
 from monticulo_min import monticulo
 
 class Vertice:
